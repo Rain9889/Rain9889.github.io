@@ -1,0 +1,59 @@
+---
+title: "This is Flexdashboard"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(tidyverse)
+library(p8105.datasets)
+library(plotly)
+
+data(instacart)
+
+instacart = 
+  instacart |> 
+  as_tibble()
+
+instacart_sample = instacart[sample(nrow(instacart), 10000), ]
+```
+
+This is my latest data analysis work!
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Department and order_number 
+```{r}
+instacart_sample |> 
+  mutate(department = fct_reorder(department, order_number)) |> 
+  plot_ly(x = ~department, y= ~order_number, color = ~department, type = "box", colors = "viridis")
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Department quantity
+
+```{r}
+instacart_sample |> 
+  count(department) |> 
+  mutate(department = fct_reorder(department, n)) |> 
+  plot_ly(x = ~department, y = ~n, color = ~department, type = "bar", colors = "viridis")
+```
+
+### Department and mean_hour_of_day
+
+```{r}
+instacart_sample |> 
+  filter(!str_detect(department, "missing")) |> 
+  group_by(department) |> 
+  summarize(mean_hour = mean(order_hour_of_day)) |> 
+  mutate(department = fct_reorder(department, mean_hour)) |> 
+  plot_ly(
+    x = ~department, y = ~mean_hour, type = "scatter", mode = "markers",
+    alpha = 0.5)
+```
