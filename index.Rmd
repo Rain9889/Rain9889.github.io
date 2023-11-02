@@ -34,6 +34,6 @@ Hi!!! This is **Rain**, an EPI student from Columbia University.
 
 # Click the link to explore me!
 
-* [Other Professional Networks](Other_Professional_Networks.html) showcase more of my professional skills.
+* [Other Professional Networks](Other-Professional-Networks.html) showcase more of my professional skills.
 * [My Github](https://github.com/Rain9889/) will take you to explore my R work.
 * [Flexdashboard](Flexdashboard.html) is my latest data analysis work.
