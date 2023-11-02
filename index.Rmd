@@ -1,0 +1,39 @@
+---
+title: "Rain's website"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+# This is Rain's website!
+
+Happy Halloween!!!!
+
+![](images/Halloween.jpg)
+
+# Welcome
+
+Hi!!! This is **Rain**, an EPI student from Columbia University.
+
+# My Hobbies
+
+* **Reading**
+  * Favorite Book: The little prince
+
+![](images/TLP.jpg)
+
+***Maybe there are five thousand roses in the world and you the same flower, but only you are my unique rose.***
+
+* **Movie**
+  * Favorite Movie: Coco
+  
+![](images/Coco.jpg)
+
+***Remember me before the memory of love disappears.***
+
+# Click the link to explore me!
+
+* [Other Professional Networks](Other_Professional_Networks.html) showcase more of my professional skills.
+* [My Github](https://github.com/Rain9889/) will take you to explore my R work.
+* [Flexdashboard](Flexdashboard.html) is my latest data analysis work.

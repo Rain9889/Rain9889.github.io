@@ -1,0 +1,35 @@
+---
+title: "Other Professional Networks"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+## **Academic Experience**
+
+* Columbia University, USA, NY, *expected 05/2024*
+  * Master of Public Health, Epidemiology
+  * GPA: 3.95/4.00
+  
+* Muskingum University, USA, OH, *graduated 05/2022*
+  * Bachelor of Arts, Public Health
+  * GPA: 4.00/4.00
+  
+* University of Emergency Management, CHN, *graduated 05/2022*
+  * Bachelor of Engineering, Safety Engineering
+  * GPA: 3.76/4.00
+
+## **Professional Experience**
+
+* Researcher *05/2023-10/2023*
+  * Longitudinal Study Design and Analysis of mental health and trauma for Rwanda in the Global South.
+  
+* Researcher *03/2021-07/2021*
+  * Research on construction of anti-food fraud database and vulnerability assessment of whole food chain.
+
+## **Skills**
+
+* SAS, R
+
+* VB

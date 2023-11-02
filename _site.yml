@@ -1,0 +1,16 @@
+name: "Rain's internet!"
+output_dir: "."
+navbar:
+  title: "Home"
+  right:
+    - text: "Other Professional Networks"
+      href: Other-Professional-Networks.html
+    - text: "Flexdashboard"
+      href: Flexdashboard.html
+    - icon: fa-envelope fa-lg
+      href: mailto:yw3995@cumc.columbia.edu
+    - icon: fa-github fa-lg
+      href: http://github.com/Rain9889
+output:
+  html_document:
+    theme: cosmo
